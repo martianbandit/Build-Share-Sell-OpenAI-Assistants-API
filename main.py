@@ -23,7 +23,7 @@ tab1, tab2, tab3, tab4, tab5 = st.tabs(["Accueil","Inscription Rapide", "Chatbot
 st.image("./asset/image001-1specvrac.jpg")
 st.title("🤖 :gray[Le Spéc'IA'liste du Vrac]")
 
-st.sidebar.image("./asset/cropped-navig-2-192x192[1].png", width=270, layout="centered")
+st.sidebar.image("./asset/cropped-navig-2-192x192[1].png", width=270, position="centered")
 st.sidebar.title(":gear: :red[Descriptions des Produits et Services]")
 
 utiliter = st.selectbox("🤖 salut! Quels Assistants voulez vous utiliser?,", ("Charbonneau l'expert", "Le Spéc'IA'liste du Vrac"))
