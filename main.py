@@ -9,7 +9,7 @@ from inference_assistant import inference
 from utils import create_assistant_from_config_file, upload_to_openai, export_assistant
 
 st.set_page_config(
-    page_title="🤖Chatbots Le Spéc'IA'liste du Vrac :truck:",
+    page_title="🤖Chatbots Le Spéc'IA'liste du Vrac :van:",
     page_icon="./asset/cropped-navig-2-192x192[1].png",
     layout="centered",
     
@@ -23,7 +23,7 @@ tab1, tab2, tab3, tab4, tab5 = st.tabs(["Accueil","Inscription Rapide", "Chatbot
 st.image("./asset/image001-1specvrac.jpg")
 st.title("🤖 :gray[Le Spéc'IA'liste du Vrac]")
 
-st.sidebar.image("./asset/cropped-navig-2-192x192[1].png", width=270)
+st.sidebar.image("./asset/cropped-navig-2-192x192[1].png", width=270, layout="centered")
 st.sidebar.title(":gear: :red[Descriptions des Produits et Services]")
 
 utiliter = st.selectbox("🤖 salut! Quels Assistants voulez vous utiliser?,", ("Charbonneau l'expert", "Le Spéc'IA'liste du Vrac"))
@@ -192,4 +192,4 @@ html_chat += '<br><a href="https://specialisteduvrac.com"></a><center><br>'
 st.markdown(html_chat, unsafe_allow_html=True)
 st.sidebar.write(":hammer::gear: :rainbow[Cet application est fièrement propulsé par:]:wrench:")
 
-st.sidebar.image("./asset/cti43y3h.png", width="200")
+st.sidebar.image("./asset/cti43y3h.png", width=200)
