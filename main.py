@@ -20,7 +20,7 @@ st.set_page_config(
     }
 )
 tab1, tab2, tab3, tab4, tab5 = st.tabs(["Accueil","Inscription Rapide", "Chatbot", "conditions d'utilisations", "l'entreprise"])
-st.image("./asset/image001-1specvrac.jpg
+st.image("./asset/image001-1specvrac.jpg")
 st.title("🤖 :gray[Le Spéc'IA'liste du Vrac]")
 
 st.sidebar.image("./asset/cropped-navig-2-192x192[1].png", width=270)
