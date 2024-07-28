@@ -190,6 +190,6 @@ if openaiKey:
 html_chat = "<center><h6>🤗 Visitez notre site web ou notre page facebook pour d'autres détails 🤗</h6>"
 html_chat += '<br><a href="https://specialisteduvrac.com"></a><center><br>'
 st.markdown(html_chat, unsafe_allow_html=True)
-st.sidebar.write(":hammer::gear: :rainbow[Cet application est fièrement propulsé par:]:wrench:")
+st.sidebar.write(":hammer::gear: :rainbow[Cet application est fièrement propulsé par:]:wrench:GPTS-Index.com:wrench:")
 
 st.sidebar.image("./asset/cti43y3h.png", width=60)
