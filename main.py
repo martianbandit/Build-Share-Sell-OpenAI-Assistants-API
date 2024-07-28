@@ -192,4 +192,4 @@ html_chat += '<br><a href="https://specialisteduvrac.com"></a><center><br>'
 st.markdown(html_chat, unsafe_allow_html=True)
 st.sidebar.write(":hammer::gear: :rainbow[Cet application est fièrement propulsé par:]")
 st.sidebar.image("./asset/cti43y3h.png", width=30)
-st.sidebar.write(":wrench: www.Gpts-Index.com :wrench: ")
+st.sidebar.write("www.Gpts-Index.com :wrench: ")
