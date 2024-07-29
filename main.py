@@ -191,5 +191,4 @@ html_chat = "<center><h6>🤗 Visitez notre site web ou notre page facebook pour
 html_chat += '<br><a href="https://specialisteduvrac.com"></a><center><br>'
 st.markdown(html_chat, unsafe_allow_html=True)
 st.sidebar.write(":hammer::gear: :rainbow[Cet application est fièrement propulsé par:]www.Gpts-Index.com")
-st.sidebar.image("./asset/cti43y3h.png", width=70),("./asset/openai-logomark.png", width=68)
-st.sidebar.write(" :wrench: ")
+st.sidebar.image("./asset/cti43y3h.png", width=70), st.sidebar.image("./asset/openai-logomark.png", width=68)
