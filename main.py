@@ -10,20 +10,20 @@ from utils import create_assistant_from_config_file, upload_to_openai, export_as
 
 st.set_page_config(
     page_title="Chatbot Le Spéc'IA'liste du Vrac :van:",
-    page_icon="💻",
+    page_icon="./asset/cropped-navig-2-192x192[1].png",
     layout="centered",
     
     menu_items={
-        'Obtenir de l\'aide': 'martianbandit@icloud.com',
+        'Get Help': 'mailto:servizi@intelligenzaartificialeitalia.net',
         'Report a bug': "https://github.com/IntelligenzaArtificiale/Build-Share-Sell-OpenAI-Assistants-API/issues",
-        'conditions d\'utilisations': "# This is a simple web app to build, share and sell OpenAI Assistants API\n\n"
+        'About': "# This is a simple web app to build, share and sell OpenAI Assistants API\n\n"
     }
 )
-tab1, tab2, tab3, tab4, tab5 = st.tabs(["Accueil","Inscription/connexion", "Chatbot", "conditions d'utilisations", "Obtenir de l\'aide"])
-st.image("./asset/cti43y3h.png")
+tab1, tab2, tab3, tab4, tab5 = st.tabs(["Accueil","Inscription Rapide", "Chatbot", "conditions d'utilisations", "l'entreprise"])
+st.image("./asset/image001-1specvrac.jpg")
 st.title("🤖 :gray[Le Spéc'IA'liste du Vrac]")
 
-st.sidebar.image("./asset/openai-logomark.png", width=270)
+st.sidebar.image("./asset/cropped-navig-2-192x192[1].png", width=270)
 st.sidebar.title(":gear: :red[Descriptions des Produits et Services]")
 
 utiliter = st.selectbox("🤖 salut! Quels Assistants voulez vous utiliser?,", ("Charbonneau l'expert", "Le Spéc'IA'liste du Vrac"))
@@ -190,5 +190,6 @@ if openaiKey:
 html_chat = "<center><h6>🤗 Visitez notre site web ou notre page facebook pour d'autres détails 🤗</h6>"
 html_chat += '<br><a href="https://specialisteduvrac.com"></a><center><br>'
 st.markdown(html_chat, unsafe_allow_html=True)
-st.sidebar.write(":hammer::gear: :rainbow[Cet application est fièrement propulsé par:]www.Gpts-Index.com")
-st.sidebar.image("./asset/cti43y3h.png", width=70), st.sidebar.image("./asset/openai-logomark.png", width=68)
+st.sidebar.write(":hammer::gear: :rainbow[Cet application est fièrement propulsé par:]")
+st.sidebar.image("./asset/cti43y3h.png", layout="centered", width=50)
+st.sidebar.write(":wrench: www.Gpts-Index.com :wrench: ")
