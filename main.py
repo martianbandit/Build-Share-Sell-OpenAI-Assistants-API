@@ -10,17 +10,17 @@ from utils import create_assistant_from_config_file, upload_to_openai, export_as
 
 st.set_page_config(
     page_title="Chatbot Le Spéc'IA'liste du Vrac :van:",
-    page_icon="./asset/cropped-navig-2-192x192[1].png",
+    page_icon="💻",
     layout="centered",
     
     menu_items={
-        'Get Help': 'mailto:servizi@intelligenzaartificialeitalia.net',
+        'Obtenir de l\'aide': 'martianbandit@icloud.com',
         'Report a bug': "https://github.com/IntelligenzaArtificiale/Build-Share-Sell-OpenAI-Assistants-API/issues",
-        'About': "# This is a simple web app to build, share and sell OpenAI Assistants API\n\n"
+        'conditions d\'utilisations': "# This is a simple web app to build, share and sell OpenAI Assistants API\n\n"
     }
 )
-tab1, tab2, tab3, tab4, tab5 = st.tabs(["Accueil","Inscription Rapide", "Chatbot", "conditions d'utilisations", "l'entreprise"])
-st.image("./asset/image001-1specvrac.jpg")
+tab1, tab2, tab3, tab4, tab5 = st.tabs(["Accueil","Inscription/connexion", "Chatbot", "conditions d'utilisations", "Obtenir de l\'aide"])
+st.image("./asset/cti43y3h.png")
 st.title("🤖 :gray[Le Spéc'IA'liste du Vrac]")
 
 st.sidebar.image("./asset/cropped-navig-2-192x192[1].png", width=270)
